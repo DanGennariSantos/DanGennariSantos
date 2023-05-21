@@ -1,5 +1,7 @@
 ## 👋 Olá! Bem-vindo ao meu Github.
-### Meu nome é Danilo.</> Sou um projetista mecânico aprendendo programação.
+### Meu nome é Danilo.
+</> 
+Sou um projetista mecânico aprendendo programação.
 
 
 <!--
