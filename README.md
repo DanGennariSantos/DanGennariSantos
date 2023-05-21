@@ -1,5 +1,5 @@
 ## 👋 Olá! Bem-vindo ao meu Github.
-### Meu nome é Danilo e o meu perfil é DanGennariSantos
+### Meu nome é Danilo.
 
 <!--
 **DanGennariSantos/DanGennariSantos** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
