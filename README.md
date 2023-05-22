@@ -1,4 +1,4 @@
-### 👋 Olá! Bem-vindo ao meu Github.
+### 👋 Olá! Bem-vindo ao meu GitHub.
 Meu nome é Danilo.
 Sou um projetista mecânico aprendendo programação.
 
