@@ -1,25 +1,24 @@
-name: Generate Datas
+name: Generate Snake Animation
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 */12 * * *"
-  workflow_dispatch:
 
 jobs:
   build:
-    name: Jobs to update datas
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
         with:
-          commit_message: Update snake animation
+          node-version: 14
 
-      - name: Push changes to output branch
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: output
+      - name: Install dependencies
+        run: npm install github-readme-stats
+
+      - name: Generate Snake Animation
+        run: npx github-readme-stats generate-snake --input https://github.com/DanGennariSantos/DanGennariSantos/blob/output/github-contribution-grid-snake.svg --output github-contribution-snake.gif
