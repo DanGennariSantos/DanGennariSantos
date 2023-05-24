@@ -21,4 +21,4 @@ jobs:
         run: npm install github-readme-stats
 
       - name: Generate Snake Animation
-        run: npx github-readme-stats generate-snake --input https://github.com/DanGennariSantos/DanGennariSantos/blob/output/github-contribution-grid-snake.svg --output github-contribution-snake.gif
+        run: npx github-readme-stats generate-snake --input https://github.com/DanGennariSantos/DanGennariSantos/blob/output/ --output github-contribution-snake.gif
